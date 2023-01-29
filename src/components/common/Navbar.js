@@ -14,6 +14,7 @@ const Navbar = () => {
               className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
               src={Icons.webNav_logo}
               width="60"
+              alt="logo"
             />
             {"Shubh".split("").map((letter, index) => {
               return (
