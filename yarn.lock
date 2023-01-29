@@ -8719,6 +8719,11 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
+use-delayed-render@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/use-delayed-render/-/use-delayed-render-0.0.7.tgz#3d35ab7c26cadc1b31b8cb4ec58342c88c3b082e"
+  integrity sha512-Lb4Sd4P50CYRQ5k2Y9SRjMDTBG3Ous7TmfCGOzabKZf3ibQwIuyF3M2q6iiGLH+BicXZJumXgJDeHRnAfZM7Gg==
+
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
