@@ -15,7 +15,6 @@ import SkillsLaptop from "./icons/skills_laptop.svg";
 import SkillsCodetag from "./icons/skills_codetag.svg";
 import SkillsYoutube from "./icons/skills_youtube.svg";
 import SkillsFillStar from "./icons/skills_fillStar.svg";
-import SkillsStarOutline from "./icons/skills_starOutline.svg";
 
 export const Icons = {
   webNav_logo: WebNavLogo,
@@ -35,5 +34,4 @@ export const Icons = {
   skills_codetag: SkillsCodetag,
   skills_youtube: SkillsYoutube,
   skills_fillStar: SkillsFillStar,
-  skills_starOutline: SkillsStarOutline,
 };
