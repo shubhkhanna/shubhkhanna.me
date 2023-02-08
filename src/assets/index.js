@@ -16,6 +16,10 @@ import SkillsCodetag from "./icons/skills_codetag.svg";
 import SkillsYoutube from "./icons/skills_youtube.svg";
 import SkillsFillStar from "./icons/skills_fillStar.svg";
 
+// CTA Section icons
+import CtaFancyLines from "./icons/cta_fancyLines.svg";
+import LineBreak from "./icons/lineBreak.svg";
+
 export const Icons = {
   webNav_logo: WebNavLogo,
   mobileNav_logo: MobileNavLogo,
@@ -34,4 +38,8 @@ export const Icons = {
   skills_codetag: SkillsCodetag,
   skills_youtube: SkillsYoutube,
   skills_fillStar: SkillsFillStar,
+
+  // cta section icons
+  cta_fancyLines: CtaFancyLines,
+  lineBreak: LineBreak,
 };
