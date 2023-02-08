@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import MobileNavbar from "./MobileNavbar";
+import Footer from "./Footer";
 
 const PageWrapper = ({ children }) => {
   return (
@@ -16,6 +17,7 @@ const PageWrapper = ({ children }) => {
         </div>
         {children}
       </main>
+      <Footer />
     </div>
   );
 };
