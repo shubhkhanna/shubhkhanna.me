@@ -20,6 +20,10 @@ import SkillsFillStar from "./icons/skills_fillStar.svg";
 import CtaFancyLines from "./icons/cta_fancyLines.svg";
 import LineBreak from "./icons/lineBreak.svg";
 
+// Project Card icons
+import ProjectLink from "./icons/project_link.svg";
+import ProjectGithub from "./icons/project_github.svg";
+
 export const Icons = {
   webNav_logo: WebNavLogo,
   mobileNav_logo: MobileNavLogo,
@@ -42,4 +46,8 @@ export const Icons = {
   // cta section icons
   cta_fancyLines: CtaFancyLines,
   lineBreak: LineBreak,
+
+  // project card icons
+  project_link: ProjectLink,
+  project_github: ProjectGithub,
 };
