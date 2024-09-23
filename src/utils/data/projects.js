@@ -4,7 +4,7 @@ const projects = [
     title: "Cutly",
     desc: "A URL shortener service that allows users to create short links for their long URLs.",
     img: require("../../assets/images/project_cutly.jpg"),
-    link: "https://cutly.vercel.app/",
+    link: null,
     github: "https://github.com/shubhkhanna/cutly",
     tags: ["React", "Nodejs", "Express", "MongoDB", "TailwindCSS"],
   },

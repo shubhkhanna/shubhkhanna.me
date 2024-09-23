@@ -16,13 +16,6 @@ const ProjectsSection = () => {
         })}
       </div>
 
-      <div className="relative w-full mt-2">
-        <Link to="/projects">
-          <div className="mt-8 max-w-sm md:max-w-2xl border border-sky-500 mx-auto text-center w-full whitespace-nowrap px-8 py-3 rounded-full text-sky-500 bg-darkshade1 hover:bg-sky-500 hover:text-white transition-colors cursor-pointer">
-            View All
-          </div>
-        </Link>
-      </div>
     </div>
   );
 };

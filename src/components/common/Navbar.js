@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Icons } from "../../assets";
 import { ROUTES } from "../../utils/routes";
 
@@ -29,26 +29,6 @@ const Navbar = () => {
           </span>
         </Link>
       </li>
-
-      {/* Routes */}
-      <ul className="flex items-center space-x-10">
-        {React.Children.toArray(
-          Object.keys(ROUTES).map((item) => (
-            <li className="list-none text-white capitalize">
-              <NavLink
-                to={ROUTES[item]}
-                className={({ isActive }) =>
-                  isActive
-                    ? "opacity-100"
-                    : "opacity-40 hover:opacity-100 transition-opacity"
-                }
-              >
-                {item.toLowerCase()}
-              </NavLink>
-            </li>
-          ))
-        )}
-      </ul>
     </nav>
   );
 };

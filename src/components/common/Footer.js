@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="flex flex-col w-screen px-5 pt-10 pb-6 border-t border-slate-900 z-5 bg-darkshade1">
-      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-gray-500 border-t border-slate-800">
+    <footer className="flex flex-col w-screen px-5 pt-10 pb-6 z-5 bg-darkshade1">
+      <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-gray-500">
         <div className="flex flex-col items-center justify-center ">
           <div className="inline-flex items-center uppercase text-xs font-semibold tracking-widest">
             Made with{" "}
@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
               <span>
                 <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   width="26"
                   title="TailwindCSS"
                   alt="TailwindCSS"

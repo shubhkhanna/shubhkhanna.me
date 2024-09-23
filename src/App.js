@@ -10,7 +10,6 @@ const App = () => {
     <PageWrapper>
       <Routes>
         <Route path={ROUTES.HOME} element={<HomePage />} />
-        <Route path={ROUTES.PROJECTS} element={<ProjectsPage />} />
       </Routes>
     </PageWrapper>
   );
